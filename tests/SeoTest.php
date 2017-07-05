@@ -15,21 +15,6 @@ use Godzill\Utils;
 class SeoTest extends  PHPUnit_Framework_TestCase
 {
     /**
-     * @var string source for data provider
-     */
-  //  private   $csvFileName =  "/../resources/data.csv"; // format - URL, Meta Title, Meta Description
-
-    /**
-     * @var string target file in which meta tag's data
-     */
-//    private   $metaFileName =  "meta.html";
-
-    /**
-     * @var string path to website folder
-     */
-//    private   $pathToMetaFile = "C:\Users\dbolgarov\Documents\Kitematic\hello-world-nginx\website_files"; // path to target file
-
-    /**
      * @var array with original content of meta tag's data from  $metaFileName
      */
     private   $backupMetaData;
@@ -74,7 +59,6 @@ class SeoTest extends  PHPUnit_Framework_TestCase
      */
     public function csvDataProvider()
     {
-//        $csvFullContent = file_get_contents(__DIR__ .$this->csvFileName);
         $csvFullContent = file_get_contents(__DIR__ .csvFileName);
         $csvContent= CSVChecker::retrievingCSVData($csvFullContent);
         //Generate data for the test
@@ -95,10 +79,6 @@ class SeoTest extends  PHPUnit_Framework_TestCase
         $this->method = __METHOD__;  //Necessary for using own logging function
         $this->metaTitle=$metaTitle; //Necessary for restore meta tag's data - we should know which values we are changed
         $this->metaDescription=$metaDescription; //Necessary for restore meta tag's data - we should know which values we are changed
-
-//        $this->log( "=====================================");
-//        $this->log( CSVChecker::$metaTagsFromCSVHeader[0]);
-//        $this->log( CSVChecker::$metaTagsFromCSVHeader[1]);
 
         $this->changeSeoData(metaFileName,$metaTitle,$metaDescription ); //preparation step. Changing meta tags data in target resource
 
