@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Verify SEO Meta tags" tests="2" assertions="4" errors="0" failures="0" skipped="0" time="0.029221">
+    <testsuite name="SeoTest" file="C:\phpunit-tests\tests\SeoTest.php" tests="2" assertions="4" errors="0" failures="0" skipped="0" time="0.029221">
+      <testsuite name="SeoTest::testSeoTagsData" tests="2" assertions="4" errors="0" failures="0" skipped="0" time="0.029221">
+        <testcase name="testSeoTagsData with data set #0" class="SeoTest" classname="SeoTest" file="C:\phpunit-tests\tests\SeoTest.php" line="93" assertions="2" time="0.018530">
+          <system-out>Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::setUp   Starting backup meta tag's data from resource - meta.html
+Array
+(
+    [title] =&gt; testing seoTit resfgfgfgfgfgt
+    [description] =&gt; s3  fgfgfgfg hings
+)
+Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::setUp   Finished backup meta tag's data 
+Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::testSeoTagsData  ==============================================================
+Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::testSeoTagsData  Checking META title tag 
+Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::testSeoTagsData  ==============================================================
+Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::testSeoTagsData  input values: 
+Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::testSeoTagsData  URL - http://192.168.99.100:32778 
+Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::testSeoTagsData  Meta title Data - seoTitle fdfdf 
+Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::testSeoTagsData  ==============================================================
+Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::testSeoTagsData  Found the following tag's content on the website - seoTitle fdfdf 
+Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::testSeoTagsData  ==============================================================
+Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::testSeoTagsData  Checking META description tag 
+Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::testSeoTagsData  ==============================================================
+Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::testSeoTagsData  input values: 
+Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::testSeoTagsData  URL - http://192.168.99.100:32778 
+Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::testSeoTagsData  Meta description Data - seoDesc fdfdf 
+Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::testSeoTagsData  ==============================================================
+Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::testSeoTagsData  Found the following tag's content on the website - seoDesc fdfdf 
+Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::tearDown   Starting restoring meta tag's data to resource - meta.html
+Array
+(
+    [title] =&gt; testing seoTit resfgfgfgfgfgt
+    [description] =&gt; s3  fgfgfgfg hings
+)
+Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::tearDown  Finished restoring  meta tag's data 
+</system-out>
+        </testcase>
+        <testcase name="testSeoTagsData with data set #1" class="SeoTest" classname="SeoTest" file="C:\phpunit-tests\tests\SeoTest.php" line="93" assertions="2" time="0.010691">
+          <system-out>Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::setUp   Starting backup meta tag's data from resource - meta.html
+Array
+(
+    [title] =&gt; testing seoTit resfgfgfgfgfgt
+    [description] =&gt; s3  fgfgfgfg hings
+)
+Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::setUp   Finished backup meta tag's data 
+Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::testSeoTagsData  ==============================================================
+Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::testSeoTagsData  Checking META title tag 
+Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::testSeoTagsData  ==============================================================
+Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::testSeoTagsData  input values: 
+Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::testSeoTagsData  URL - http://192.168.99.100:32778 
+Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::testSeoTagsData  Meta title Data - seoTitle2 wedwe 
+Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::testSeoTagsData  ==============================================================
+Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::testSeoTagsData  Found the following tag's content on the website - seoTitle2 wedwe 
+Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::testSeoTagsData  ==============================================================
+Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::testSeoTagsData  Checking META description tag 
+Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::testSeoTagsData  ==============================================================
+Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::testSeoTagsData  input values: 
+Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::testSeoTagsData  URL - http://192.168.99.100:32778 
+Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::testSeoTagsData  Meta description Data - seoDesc2 dfa 
+Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::testSeoTagsData  ==============================================================
+Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::testSeoTagsData  Found the following tag's content on the website - seoDesc2 dfa 
+Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::tearDown   Starting restoring meta tag's data to resource - meta.html
+Array
+(
+    [title] =&gt; testing seoTit resfgfgfgfgfgt
+    [description] =&gt; s3  fgfgfgfg hings
+)
+Mon, 03 Jul 2017 15:25:38 +0000  SeoTest::tearDown  Finished restoring  meta tag's data 
+</system-out>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

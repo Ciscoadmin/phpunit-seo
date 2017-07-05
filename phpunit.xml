@@ -1,0 +1,15 @@
+<phpunit colors="true">
+    <testsuites>
+     <testsuite name="Verify SEO Meta tags">
+      <directory>tests</directory>
+     </testsuite>
+    </testsuites>
+	<logging>
+		<log type="junit" target="logs/result.xml"/>
+	</logging>
+	<php>
+		<const name="csvFileName" value="/../resources/data.csv"/>
+		<const name="metaFileName" value="meta.html"/>
+		<const name="pathToMetaFile" value="/home/docker/shared_nginx_seo"/>
+	</php>
+</phpunit>

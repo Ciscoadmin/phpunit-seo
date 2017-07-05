@@ -1,0 +1,14 @@
+{
+  "require": {
+    "phpunit/phpunit": " 6.2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "My\\": "tests/"
+
+    }
+  }
+
+}
+
+
