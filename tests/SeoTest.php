@@ -8,11 +8,11 @@ require './vendor/autoload.php';
 require_once __DIR__ . '/../src/Godzill/CSVChecker.php';
 require_once __DIR__ . '/../src/Godzill/Utils.php';
 
-//use PHPUnit\Framework\TestCase;
+use PHPUnit\Framework\TestCase as PHPUnit_Framework_TestCase;
 use Godzill\CSVChecker;
 use Godzill\Utils;
 
-class SeoTest extends  PHPUnit_Framework_TestCase
+class SeoTest extends  PHPUnit_Framework_TestCase 
 {
     /**
      * @var array with original content of meta tag's data from  $metaFileName
